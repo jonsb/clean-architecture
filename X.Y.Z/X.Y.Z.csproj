@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Mobitech.X.Y.Api</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\X.Y.Z.Application\X.Y.Z.Application.csproj" />
+      <ProjectReference Include="..\X.Y.Z.Domain\X.Y.Z.Domain.csproj" />
+      <ProjectReference Include="..\X.Y.Z.Infrastructure.Infra1\X.Y.Z.Infrastructure.Infra1.csproj" />
+      <ProjectReference Include="..\X.Y.Z.Infrastructure.Infra2\X.Y.Z.Infrastructure.Infra2.csproj" />
+      <ProjectReference Include="..\X.Y.Z.Infrastructure.InfraN\X.Y.Z.Infrastructure.InfraN.csproj" />
+      <ProjectReference Include="..\X.Y.Z.-Infrastructure.Storage.Blob\X.Y.Z.-Infrastructure.Storage.Blob.csproj" />
+    </ItemGroup>
+
+</Project>
